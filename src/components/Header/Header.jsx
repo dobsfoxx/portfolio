@@ -1,4 +1,5 @@
 import './Header.module.css'
+import perfil from '../../assets/perfil.png'
 
 export default function Header() {
   return (
@@ -13,7 +14,7 @@ export default function Header() {
 
         <div className="flex-1 flex justify-center">
           <div className="w-64 h-64 rounded-full shadow-lg flex items-center justify-center">
-            <img src="./src/assets/perfil.png" alt="Avatar" className="w-full h-full rounded-full object-cover" />
+            <img src={perfil} alt="Avatar" className="w-full h-full rounded-full object-cover" />
           </div>
         </div>
       </div>

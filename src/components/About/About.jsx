@@ -1,3 +1,5 @@
+import curriculoPdf from '../../assets/Curriculo (2).pdf'
+
 export default function About() {
   return (
     <section id="about" className="w-full bg-white py-12">
@@ -13,9 +15,9 @@ export default function About() {
             Possuo rápido aprendizado e comprometimento com meus objetivos. Me ajude a dar o próximo passo na minha carreira! 
         </p>
        
-       <div className="mt-6 text-center">
+       <div className="mt-6 text-center flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
-            href="./src/assets/Curriculo (2).pdf"
+            href={curriculoPdf}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-4 py-2 border bg-yellow-400 text-white font-semibold rounded  hover:bg-yellow-500 transition"
