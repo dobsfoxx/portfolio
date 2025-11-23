@@ -68,7 +68,11 @@ export default function Header() {
       <div className="container mx-auto px-6 pt-4 pb-8 flex flex-col items-center gap-6 md:flex-row md:gap-8">
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl font-[Montserrat] font-bold text-black lg:text-5xl">
-            Oi, eu sou o <span>D</span><span>o</span><span>u</span><span>g</span>
+            Oi, eu sou o{' '}
+            <span className="name-letter">D</span>
+            <span className="name-letter">o</span>
+            <span className="name-letter">u</span>
+            <span className="name-letter">g</span>
           </h1>
           <p className="mt-4 text-xl text-gray-800">
             Desenvolvedor Front-End em transição de carreira. Em busca de uma primeira oportunidade.
