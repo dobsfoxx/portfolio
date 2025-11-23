@@ -58,9 +58,6 @@ export default function Header() {
             <a href="#projects" onClick={() => setOpen(false)} className="text-left py-1">
               Projetos
             </a>
-            <a href="#footer" onClick={() => setOpen(false)} className="text-left py-1">
-              Contato
-            </a>
           </div>
         </nav>
       )}
