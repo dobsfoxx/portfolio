@@ -1,55 +1,52 @@
-# React + Vite
+# Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Este projeto apresenta uma coleção dos meus trabalhos desenvolvidos com React, Tailwind CSS e CSS Modules.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
+- **React** - Framework JavaScript para construção da interface
+- **Tailwind CSS** - Framework CSS utilitário para estilização
+- **CSS Modules** - Escopo modular para pequena animação no header.
+- **Vercel** - Plataforma de deploy
 
-## React Compiler
+## 📋 Projetos em Destaque
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### PomoClock
+Um aplicativo de produtividade baseado na Técnica Pomodoro, construído com React estilizado com CSS Modules.
 
-## Expanding the ESLint configuration
+**🔗 Live Demo:** [https://pomoclock-six.vercel.app/](https://pomoclock-six.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### DailyNews
+Aplicação consumindo API de notícias, construída com Next.js e Tailwind CSS. Utilização de slugs dinâmicos para páginas e categorias.
 
-# Portfólio — Template
+**🔗 Live Demo:** [https://daily-news-orcin-alpha.vercel.app/](https://daily-news-orcin-alpha.vercel.app/)
 
-Este projeto contém uma landing page simples para exibição de portfólio de programação usando React + Vite.
+### Barbearia BarBear
+Aplicação em HTML e SASS para um site de barbearia, utilizando pré-processador SASS para estilos avançados.
 
-Principais pontos:
-- Layout responsivo e moderno estilizado com Tailwind CSS (via CDN para desenvolvimento rápido).
-- Componentes reutilizáveis: `Hero`, `Projects`, `Techs`, `Footer` em `src/components`.
+**🔗 Live Demo:** [https://barbear-barber.vercel.app/](https://barbear-barber.vercel.app/)
 
-Como rodar
-1. Instale dependências (se ainda não):
+### Eletromídia Zeladoria
+Uma aplicação desenvolvida para gerenciar a manutenção de abrigos de ônibus sob a responsabilidade da Eletromidia durante o bootcamp da SoulCode.
 
-```
-npm install
-```
+**🔗 Live Demo:** [https://eletromidia-zeladoria.web.app/2856](https://eletromidia-zeladoria.web.app/2856)
 
-2. Rode o servidor de desenvolvimento:
+### Landing Page PetShop
+Landing Page de um PetShop, desenvolvida com Next.js e Tailwind CSS, focando em design responsivo e experiência do usuário.
 
-```
-npm run dev
-```
+**🔗 Live Demo:** [https://github.com/dobsfoxx/Landing-Page-Next_Tailwind](https://github.com/dobsfoxx/Landing-Page-Next_Tailwind)
 
-Abra http://localhost:5173 (ou a porta exibida pelo Vite).
+## 🛠️ Como Executar Localmente
 
-Como editar a landing
-- `src/components/Hero.jsx`: título, introdução e links principais.
-- `src/components/Projects.jsx`: lista de projetos. Passe um array de objetos `{ title, description, url }` como prop `projects` para o componente.
-- `src/components/Techs.jsx`: lista de tecnologias. Passe um array de strings via prop `techs`.
-- `src/components/Footer.jsx`: informações de contato e rodapé.
+Siga os passos abaixo para rodar o projeto em sua máquina:
 
-Onde adicionar seus projetos e tecnologias
-- Exemplo rápido em `src/App.jsx` (variáveis `sampleProjects` e `sampleTechs`). Substitua por seus dados reais ou conecte a um CMS/arquivo JSON.
+### Pré-requisitos
+- Node.js (versão 14 ou superior)
+- npm ou yarn
 
-Sobre Tailwind
-- Para prototipagem rápida, foi usado o CDN `https://cdn.tailwindcss.com` incluído em `index.html`.
-- Para produção, recomendo instalar e configurar Tailwind via PostCSS e gerar CSS otimizado.
+### Instalação
 
-Próximos passos sugeridos
-- Adicionar imagens/avatares reais no componente `Hero`.
-- Melhorar os cards de projeto com tags, thumbnails e links para código/preview.
-- Implementar rotas para páginas de detalhes (React Router) se desejar.
+1. **Clone o repositório**<br>
+   git clone https://github.com/dobsfoxx/portfolio
+2. **Rode localmente**<br>
+   npm run dev
