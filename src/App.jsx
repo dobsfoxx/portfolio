@@ -11,6 +11,12 @@ import nextIcon from './assets/next.png';
 import tailwindIcon from './assets/tailwind.png';
 import gitIcon from './assets/git.png';
 import About from './components/About/About';
+import pomoClockImg from './assets/Pomoclock.png';
+import dailyNewsImg from './assets/daily-news.png';
+import barbeariaImg from './assets/barbear.png';
+import eletromidiaImg from './assets/zeladoria.png';
+import petshopImg from './assets/petshop.png';
+
 import "./index.css";
 
 const sampleProjects = [
@@ -18,27 +24,33 @@ const sampleProjects = [
     title: "PomoClock",
     description: "Um aplicativo de produtividade baseado na Técnica Pomodoro, construído com React estilizado com CSS Modules.",
     url: "https://pomoclock-six.vercel.app/",
+    image: pomoClockImg,
   },
   {
     title: "DailyNews",
     description: "Aplicação consumindo API de notícias, construída com Next.js e Tailwind CSS. Utilização de slugs dinâmicos para páginas e categorias.",
     url: "https://daily-news-orcin-alpha.vercel.app/",
+    image: dailyNewsImg,
   },
   {
     title: "Barbearia BarBear",
     description: "Aplicação em HTML e SASS para um site de barbearia, utilizando pré processador SASS para estilos avançados.",
     url: "https://barbear-barber.vercel.app/",
+    image: barbeariaImg,
   },
   {
     title: "Eletromídia Zeladoria",
     description: "Uma aplicação desenvolvida para gerenciar a manutenção de abrigos de ônibus sob a responsabilidade da Eletromidia durante o bootcamp da SoulCode.",
     url: "https://eletromidia-zeladoria.web.app/2856",
+    image: eletromidiaImg,
   },
   {
     title: "Landing Page PetShop",
     description: "Landing Page de um PetShop, desenvolvida com Next.js e Tailwind CSS, focando em design responsivo e experiência do usuário.",
     url: "https://github.com/dobsfoxx/Landing-Page-Next_Tailwind",
+    image: petshopImg,
   },
+
 ];
 
 const sampleTechs = [
