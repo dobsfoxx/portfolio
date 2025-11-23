@@ -1,6 +1,24 @@
 import { useState } from 'react'
-import './Header.module.css'
+import styled, { keyframes } from 'styled-components'
 import perfil from '../../assets/perfil.png'
+
+const ripple = keyframes`
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    color: rgb(0, 0, 0);
+  }
+  50% {
+    transform: translateY(-15px) scale(1);
+    color: rgb(0, 0, 0);
+  }
+`
+
+const AnimatedLetter = styled.span`
+  display: inline-block;
+  animation: ${ripple} 1.2s infinite ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+  animation-delay: ${(props) => props.$delay || '0s'};
+`
 
 export default function Header() {
   const [open, setOpen] = useState(false)
@@ -65,7 +83,11 @@ export default function Header() {
       <div className="container mx-auto px-6 pt-4 pb-8 flex flex-col items-center gap-6 md:flex-row md:gap-8">
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl font-[Montserrat] font-bold text-black lg:text-5xl">
-            Oi, eu sou o <span>D</span><span>o</span><span>u</span><span>g</span>
+            Oi, eu sou o{' '}
+            <AnimatedLetter $delay="0s">D</AnimatedLetter>
+            <AnimatedLetter $delay="0.1s">o</AnimatedLetter>
+            <AnimatedLetter $delay="0.2s">u</AnimatedLetter>
+            <AnimatedLetter $delay="0.25s">g</AnimatedLetter>
           </h1>
           <p className="mt-4 text-xl text-gray-800">
             Desenvolvedor Front-End em transição de carreira. Em busca de uma primeira oportunidade.
