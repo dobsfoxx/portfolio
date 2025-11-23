@@ -1,6 +1,7 @@
 # Meu Portfólio
 
 Bem-vindo ao meu portfólio! Este projeto apresenta uma coleção dos meus trabalhos desenvolvidos com React, Tailwind CSS e CSS Modules.
+<h2>Link do deploy: https://dev-doug.vercel.app/</h2>
 
 ## 🚀 Tecnologias Utilizadas
 
