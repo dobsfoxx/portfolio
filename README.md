@@ -7,7 +7,7 @@ Bem-vindo ao meu portfólio! Este projeto apresenta uma coleção dos meus traba
 
 - **React** - Framework JavaScript para construção da interface
 - **Tailwind CSS** - Framework CSS utilitário para estilização
-- **CSS Modules** - Escopo modular para pequena animação no header.
+- **Styled Components** - Css in JS para pequena animação no Header. (Conflito com CSS Modules no Deploy)
 - **Vercel** - Plataforma de deploy
 
 ## 📋 Projetos em Destaque
@@ -48,6 +48,6 @@ Siga os passos abaixo para rodar o projeto em sua máquina:
 ### Instalação
 
 1. **Clone o repositório**<br>
-   git clone https://github.com/dobsfoxx/portfolio
+   - git clone https://github.com/dobsfoxx/portfolio
 2. **Rode localmente**<br>
-   npm run dev
+   - npm run dev
