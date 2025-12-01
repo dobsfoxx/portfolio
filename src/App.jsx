@@ -17,6 +17,7 @@ import barbeariaImg from './assets/barbear.png';
 import eletromidiaImg from './assets/zeladoria.png';
 import petshopImg from './assets/petshop.png';
 import calcEstacionamentoImg from './assets/calc-estacionamento.png';
+import blogImg from './assets/blogtswind.png';
 
 import "./index.css";
 
@@ -56,6 +57,12 @@ const sampleProjects = [
     description: "Projeto de uma calculadora de estacionamento utilizando conceitos de Programação Orientada a Objetos (POO) em JavaScript.",
     url: "https://calculadora-de-estacionamento.vercel.app/",
     image: calcEstacionamentoImg,
+  },
+  {
+    title: "Blog TS Wind",
+    description: "Blog pessoal focado em TypeScript e tecnologias web, desenvolvido com Next.js e estilizado com Tailwind CSS.",
+    url: "https://blogtswind.vercel.app/",
+    image: blogImg,
   },
 
 ];
