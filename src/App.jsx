@@ -16,6 +16,7 @@ import dailyNewsImg from './assets/daily-news.png';
 import barbeariaImg from './assets/barbear.png';
 import eletromidiaImg from './assets/zeladoria.png';
 import petshopImg from './assets/petshop.png';
+import calcEstacionamentoImg from './assets/calc-estacionamento.png';
 
 import "./index.css";
 
@@ -49,6 +50,12 @@ const sampleProjects = [
     description: "Landing Page de um PetShop, desenvolvida com Next.js e Tailwind CSS, focando em design responsivo e experiência do usuário.",
     url: "https://github.com/dobsfoxx/Landing-Page-Next_Tailwind",
     image: petshopImg,
+  },
+  {
+    title: "Calculadora de Estacionemnto - POO (JavaScript)",
+    description: "Projeto de uma calculadora de estacionamento utilizando conceitos de Programação Orientada a Objetos (POO) em JavaScript.",
+    url: "https://calculadora-de-estacionamento.vercel.app/",
+    image: calcEstacionamentoImg,
   },
 
 ];
