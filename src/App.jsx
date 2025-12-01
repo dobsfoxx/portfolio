@@ -16,10 +16,10 @@ import dailyNewsImg from './assets/daily-news.png';
 import barbeariaImg from './assets/barbear.png';
 import eletromidiaImg from './assets/zeladoria.png';
 import petshopImg from './assets/petshop.png';
-import calcEstacionamentoImg from './assets/calc-estacionamento.png';
 import blogImg from './assets/blogtswind.png';
+import calculadoraImg from './assets/calc.png';
 
-import "./index.css";
+
 
 const sampleProjects = [
   {
@@ -56,7 +56,7 @@ const sampleProjects = [
     title: "Calculadora de Estacionemnto - POO (JavaScript)",
     description: "Projeto de uma calculadora de estacionamento utilizando conceitos de Programação Orientada a Objetos (POO) em JavaScript.",
     url: "https://calculadora-de-estacionamento.vercel.app/",
-    image: calcEstacionamentoImg,
+    image: calculadoraImg,
   },
   {
     title: "Blog TS Wind",
